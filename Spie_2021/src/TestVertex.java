@@ -12,8 +12,14 @@ public class TestVertex {
 		System.out.println(v1);
 		System.out.println(v2);
 		System.out.println(v3);
-		System.out.println(v3.y+v2.x+v1.x);
-		System.out.println(v3.y+(v2.x+v1.x));
+		
+		
+		int a=10;
+		int b=20;
+	
+		
+		System.out.println(a+(b+"5"));
+		System.out.println((a+b)+"5");
 
 	}
 
