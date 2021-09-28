@@ -4,22 +4,17 @@ public class TestVertex {
 	public static void main(String[] args) {
 		
 		Vertex v1=new Vertex(17, 4);
-		Vertex v2=new Vertex(24, 0);
-		Vertex v3=new Vertex(0, 0);
+		Vertex maus=new Vertex(24, 0);
+		Vertex v3=v1.skalarMult(42.2);
+		Vertex katze=new Vertex(1,1);
+		Vertex elefant=katze.add(maus);
+		
+		System.out.println(katze);
 		
 		
-		
-		System.out.println(v1);
-		System.out.println(v2);
-		System.out.println(v3);
-		
-		
-		int a=10;
-		int b=20;
-	
-		
-		System.out.println(a+(b+"5"));
-		System.out.println((a+b)+"5");
+		katze.addMod(maus);
+		System.out.println(katze);
+		System.out.println(elefant);
 
 	}
 
