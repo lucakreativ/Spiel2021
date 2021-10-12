@@ -50,6 +50,9 @@ public class Vertex {
 	public double getY() {
 		return y;
 	}
+	
+	
+	
 
 	public boolean equals(Object thatObject) {
 		if (thatObject instanceof Vertex) {
