@@ -1,11 +1,10 @@
 import javax.swing.JFrame;
 
-public class Main {
+public class JFrameTest {
 
 	public static void main(String[] args) {
-		JFrame f=new JFrame("TEst");
-		f.add(new FirstPanel());
-		f.pack();
+		JFrame f = new JFrame("Hallo");
+		
 		f.setVisible(true);
 	}
 
