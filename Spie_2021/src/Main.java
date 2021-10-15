@@ -14,6 +14,8 @@ public class Main {
 		System.out.println(o1.equals(o2));
 		System.out.println(o2.contains(v1));
 		System.out.println(o4);
+		System.out.println(o3);
+		
 		
 	}
 
