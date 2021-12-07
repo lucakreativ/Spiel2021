@@ -8,13 +8,13 @@ public class GeometricImage extends GeometricObject implements Paintable{
 
 	
 	public GeometricImage (String fileName, double x, double y) {
-		super(x, y);
+		super(new Vertex(x, y));
 		this.icon=icon;
 		icon=new ImageIcon(getClass().getClassLoader().getResource(fileName));
 		init();
 	}
 		public GeometricImage(ImageIcon icon, double x, double y) {
-			super(x,y);
+			super(new Vertex(x,y));
 			this.icon=icon;
 			init();
 		}
