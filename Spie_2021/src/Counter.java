@@ -38,5 +38,3 @@ public class Counter extends SimpleButton{
 		ShowInFrame.show(new Counter());
 	}
 }
-
-//dklfjlsdkoölfgesdfg
