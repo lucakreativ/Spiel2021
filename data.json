@@ -1,0 +1,47 @@
+{
+    "1":{
+        "name": "SC Neumühl 2",
+        "points": 4,
+        "rating": 1540
+    },
+    "2":{
+        "name": "SC Zell 2",
+        "points": 4,
+        "rating": 1540
+    },
+    "3":{
+        "name":"SC Lahr 2",
+        "points": 4,
+        "rating": 1580
+    },
+    "4":{
+        "name": "SC Neumühl 3",
+        "points": 3.5,
+        "rating": 1430
+    },
+    "5":{
+        "name": "SK Appenweier 2",
+        "points": 3,
+        "rating": 1550
+    },
+    "6":{
+        "name": "Randbauer Griesheim",
+        "points": 3,
+        "rating": 1510
+    },
+    "7":{
+        "name": "SC Haslach",
+        "points": 3,
+        "rating": 1540
+    },
+    "8":{
+        "name": "SC Ohlsbach 2",
+        "points": 2,
+        "rating": 1470
+    },
+    "9":{
+        "name": "SK Oberkirch 2",
+        "points": 1.5,
+        "rating": 1500
+    }
+}
